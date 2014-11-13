@@ -1,6 +1,3 @@
-The Teddy Roosevelt Campaign
-============================
-
 # Our Vision
 
 ## Heading 1
@@ -8,4 +5,5 @@ The Teddy Roosevelt Campaign
 ## Heading 2
 
 ## Heading 3
-============
+************
+[Contact Us](teddyroosevelt618@yahoo.com)
