@@ -1,4 +1,11 @@
-teddyroosevelt618.github.io
-===========================
+The Teddy Roosevelt Campaign
+============================
 
-Work!
+# Our Vision
+
+## Heading 1
+
+## Heading 2
+
+## Heading 3
+============
