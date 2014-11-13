@@ -5,5 +5,5 @@
 ## Heading 2
 
 ## Heading 3
-************
-[Contact Us](teddyroosevelt618@yahoo.com)
+
+[Contact Us](mailto:teddyroosevelt618@yahoo.com)
