@@ -138,6 +138,7 @@ html {
  */
 html,
 button,
+
 input,
 select,
 textarea {
@@ -446,6 +447,18 @@ input[type="submit"] {
 }
 
 /*
+ * This is extracted from form.css
+ * Known issue: None atm
+*/
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #2BC1F2
+}
+/*
  * Re-set default cursor for disabled elements
  */
 button[disabled],
@@ -661,6 +674,7 @@ table {
   border-collapse: collapse;
 }
 
+
 th {
   text-align: left;
   padding: 5px 10px;
@@ -815,6 +829,16 @@ section #title {
   outline: none;
   margin: 0 0 50px 0;
   padding: 0 0 5px 0;
+}
+section #form_sample {
+text-align:center;
+border:1px solid #ccc;
+width:300px;
+padding:0 50px 15px;
+margin-top:20px;
+box-shadow:0 0 15px;
+border-radius:6px;
+float:left
 }
 section #title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
