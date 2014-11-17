@@ -138,6 +138,15 @@ header nav {
 	overflow:hidden;
 	padding-bottom:42px;
 }
+#menu ul {
+	background:url(../images/menu_line.jpg) right top no-repeat;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+#menu ul:after {
+	content: ""; clear: both; display: block;
+}
 .box_shadow {
 	margin:6px 6px 30px 6px;
 }
