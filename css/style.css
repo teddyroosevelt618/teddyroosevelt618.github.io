@@ -122,7 +122,7 @@ header h1 a#logo:hover{
 	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
 	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
 	position: relative; 
-	background-color: #366b82;
+	background:url(../images/menu_line.jpg) right top no-repeat;
 	}
 
 .navbar	{
