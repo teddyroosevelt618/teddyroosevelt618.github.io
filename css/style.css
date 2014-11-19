@@ -166,6 +166,14 @@ header nav {
 	transition:color 0.2s linear, background 0.2s linear;	
 }
 
+#menu li ul a:hover {
+	background:#f8f8f8;
+	color:#282828;
+}
+
+#menu li ul li:hover > a {
+	background:#fff;
+}
 /**
 ul#menu {
 	margin:0px auto;
