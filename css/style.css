@@ -122,6 +122,11 @@ header nav {
 	background:url(../images/menu_line.jpg) right top no-repeat;
 	padding-right:2px;
 }
+#menu li ul {
+	float:left;
+	background:url(../images/menu_line.jpg) right top no-repeat;
+	padding-right:2px;
+}
 #menu li a {
 	display:block;
 	width:138px;
