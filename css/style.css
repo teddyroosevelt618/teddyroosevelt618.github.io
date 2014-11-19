@@ -156,13 +156,13 @@ header h1 a#logo:hover{
 		display: block;
 		}
 
-.navbar li:hover, a:hover {background-color: #54879d;} 
+.navbar li:hover, a:hover {background-color: #80081c } 
 
 .navbar li ul 	{
 		display: none;  /* Hides the drop-down menu */
 		height: auto;									
 		margin: 0; /* Aligns drop-down box underneath the menu item */
-		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		padding: 0; /* Aligns drop-down box underneath the menu item */
 		}				
 
 .navbar li:hover ul 	{
@@ -172,13 +172,13 @@ header h1 a#logo:hover{
  .navbar li ul li {background:url(../images/menu_line.jpg) right top no-repeat;} 
  
  .navbar li ul li a 	{
-		border-left: 1px solid #990000; 
-		border-right: 1px solid #1f5065; 
-		border-top: 1px solid #74a3b7; 
-		border-bottom: 1px solid #1f5065; 
+		border-left: //1px solid #990000; 
+		border-right: //1px solid #1f5065; 
+		border-top: //1px solid #74a3b7; 
+		border-bottom: //1px solid #1f5065; 
 		}
 				
-.navbar li ul li a:hover	{background-color: #323f43;}
+.navbar li ul li a:hover	{background-color: #690206}
 
 header nav {
 	width:100%;
