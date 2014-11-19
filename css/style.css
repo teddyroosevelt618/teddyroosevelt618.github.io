@@ -106,7 +106,14 @@ header h1 a#logo {
 	margin:0;
 	padding:10px 0 0 0;
 }
-
+header h1 a#logo:hover{
+	text-decoration:none;
+	font:46px "Times New Roman", Times, serif;
+	margin:0;
+	padding:10px 0 0 0;
+	background: transparent;
+	
+}
 /* Main Navigation */
 
 #wrap	{
@@ -169,7 +176,7 @@ header h1 a#logo {
 		border-bottom: 1px solid #1f5065; 
 		}
 				
-.navbar li ul li a:hover	{background-color: #366b82;}
+.navbar li ul li a:hover	{background-color: transparent;}
 
 header nav {
 	width:100%;
