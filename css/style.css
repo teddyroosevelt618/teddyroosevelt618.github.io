@@ -149,6 +149,23 @@ header nav {
 	position: relative;
 	display: inline-table;
 }
+#menu li ul a {
+	background:url(../images/menu_line.jpg) right top no-repeat;
+	padding-right:2px;
+	display:block;
+	width:138px;
+	font:20px "Times New Roman", Times, serif;
+	line-height:78px;
+	text-decoration:none;
+	text-align:center;
+	
+	/**
+	-webkit-transition:color 0.2s linear, background 0.2s linear;	
+	-moz-transition:color 0.2s linear, background 0.2s linear;	
+	-o-transition:color 0.2s linear, background 0.2s linear;	
+	transition:color 0.2s linear, background 0.2s linear;	
+	*/
+}
 /**
 ul#menu {
 	margin:0px auto;
@@ -170,7 +187,7 @@ ul#menu li {
 	border-bottom:2px solid #c4dbe7;
 }
 
-ul#menu li a {
+ul#menu li ul a {
 	padding:10px 25px;
 	color:#616161;
 	text-shadow:1px 1px 0px #fff;
