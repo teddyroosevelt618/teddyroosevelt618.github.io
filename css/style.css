@@ -149,6 +149,7 @@ header nav {
 	position: relative;
 	display: inline-table;
 }
+/**
 ul#menu {
 	margin:0px auto;
 	position:relative;
@@ -206,6 +207,7 @@ ul#menu li:hover > a {
 #menu ul:after {
 	content: ""; clear: both; display: block;
 }
+*/
 .box_shadow {
 	margin:6px 6px 30px 6px;
 }
