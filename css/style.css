@@ -165,6 +165,7 @@ header nav {
 	-o-transition:color 0.2s linear, background 0.2s linear;	
 	transition:color 0.2s linear, background 0.2s linear;	
 }
+
 /**
 ul#menu {
 	margin:0px auto;
@@ -174,7 +175,7 @@ ul#menu {
 	border-right:1px solid #c4dbe7;
 }
 
-ul#menu li {
+#menu li {
 	display:inline;
 	font-size:12px;
 	font-weight:bold;
