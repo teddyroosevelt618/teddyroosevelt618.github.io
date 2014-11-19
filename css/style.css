@@ -109,19 +109,16 @@ header h1 a#logo {
 
 /* Main Navigation */
 header nav {
+	width:100%;
+	overflow:hidden;
 	position:relative;
-	width:620px;
-	margin:0 auto; 
-	margin-top:50px;
-	padding:10px;
+	z-index:3;
 }
 
-ul#menu {
-	margin:0px auto;
-	position:relative;
+#menu {
 	float:left;
-	border-left:1px solid #c4dbe7;
-	border-right:1px solid #c4dbe7;
+	padding-left:2px;
+	background:url(../images/menu_line.jpg) 0 0 no-repeat;
 }
 
 ul#menu li {
