@@ -106,12 +106,78 @@ header h1 a#logo {
 	margin:0;
 	padding:10px 0 0 0;
 }
+
+/* Main Navigation */
+header nav {
+	position:relative;
+	width:620px;
+	margin:0 auto; 
+	margin-top:50px;
+	padding:10px;
+}
+
+ul#menu {
+	margin:0px auto;
+	position:relative;
+	float:left;
+	border-left:1px solid #c4dbe7;
+	border-right:1px solid #c4dbe7;
+}
+
+ul#menu li {
+	display:inline;
+	font-size:12px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
+	border-top:1px solid #c4dbe7;
+	border-bottom:2px solid #c4dbe7;
+}
+
+ul#menu li a {
+	padding:10px 25px;
+	color:#616161;
+	text-shadow:1px 1px 0px #fff;
+	text-decoration:none;
+	display:inline-block;
+	border-right:1px solid #fff;
+	border-left:1px solid #C2C2C2;
+	border-top:1px solid #fff;
+	background: #f5f5f5;
+	
+	-webkit-transition:color 0.2s linear, background 0.2s linear;	
+	-moz-transition:color 0.2s linear, background 0.2s linear;	
+	-o-transition:color 0.2s linear, background 0.2s linear;	
+	transition:color 0.2s linear, background 0.2s linear;	
+}
+
+ul#menu li a:hover {
+	background:#f8f8f8;
+	color:#282828;
+}
+
+ul#menu li a.first {
+	border-left: 0 none;
+}
+
+ul#menu li a.last {
+	border-right: 0 none;
+}
+
+ul#menu li:hover > a {
+	background:#fff;
+}
+
+/**
 header nav {
 	width:100%;
 	overflow:hidden;
 	position:relative;
 	z-index:3;
 }
+
 #menu {
 	float:left;
 	padding-left:2px;
@@ -186,65 +252,8 @@ header nav {
 #menu li ul:after {
 	content: ""; clear: both; display: block;
 }
-/**
-#menu li ul {
-	margin:0px auto;
-	position:relative;
-	float:left;
-	border-left:1px solid #c4dbe7;
-	border-right:1px solid #c4dbe7;
-}
-
-#menu li {
-	display:inline;
-	font-size:12px;
-	font-weight:bold;
-	margin:0;
-	padding:0;
-	float:left;
-	position:relative;
-	border-top:1px solid #c4dbe7;
-	border-bottom:2px solid #c4dbe7;
-}
-
-#menu li ul a {
-	padding:10px 25px;
-	color:#616161;
-	text-shadow:1px 1px 0px #fff;
-	text-decoration:none;
-	display:inline-block;
-	border-right:1px solid #fff;
-	border-left:1px solid #C2C2C2;
-	border-top:1px solid #fff;
-	background: #f5f5f5;
-	
-	-webkit-transition:color 0.2s linear, background 0.2s linear;	
-	-moz-transition:color 0.2s linear, background 0.2s linear;	
-	-o-transition:color 0.2s linear, background 0.2s linear;	
-	transition:color 0.2s linear, background 0.2s linear;	
-}
-
-#menu li ul a:hover {
-	background:#f8f8f8;
-	color:#282828;
-}
-
-#menu li ul a.first {
-	border-left: 0 none;
-}
-
-#menu li ul a.last {
-	border-right: 0 none;
-}
-
-#menu li ul li:hover > a {
-	background:#fff;
-}
-
-#menu li ul:after {
-	content: ""; clear: both; display: block;
-}
 */
+
 .box_shadow {
 	margin:6px 6px 30px 6px;
 }
