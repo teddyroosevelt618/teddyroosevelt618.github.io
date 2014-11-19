@@ -171,11 +171,23 @@ header nav {
 	color:#282828;
 }
 
+#menu li ul a.first {
+	border-left: 0 none;
+}
+
+#menu li ul a.last {
+	border-right: 0 none;
+}
+
 #menu li ul li:hover > a {
 	background:#fff;
 }
+
+#menu li ul:after {
+	content: ""; clear: both; display: block;
+}
 /**
-ul#menu {
+#menu li ul {
 	margin:0px auto;
 	position:relative;
 	float:left;
@@ -217,11 +229,11 @@ ul#menu {
 	color:#282828;
 }
 
-ul#menu li a.first {
+#menu li ul a.first {
 	border-left: 0 none;
 }
 
-ul#menu li a.last {
+#menu li ul a.last {
 	border-right: 0 none;
 }
 
@@ -229,7 +241,7 @@ ul#menu li a.last {
 	background:#fff;
 }
 
-#menu ul:after {
+#menu li ul:after {
 	content: ""; clear: both; display: block;
 }
 */
