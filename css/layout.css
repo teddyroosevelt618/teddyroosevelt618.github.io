@@ -14,7 +14,7 @@
 	padding:56px 0 0 22px;
 }
 #page1 header {
-	height:254px;
+	height: 350px;
 }
 #page1 .body1 {
 	background:url(../images/TR_burned.png) no-repeat;
@@ -39,3 +39,4 @@
 #page5 .col1 {
 	width:565px;
 }
+
