@@ -93,7 +93,7 @@ p {
 header {
 	width:100%;
 	overflow:hidden;
-	height:214px;
+	height:250px;
 	padding:0 6px;
 }
 header h1, #page1 header h1 {
@@ -103,8 +103,8 @@ header h1, #page1 header h1 {
 header h1 a#logo {
 	text-decoration:none;
 	font:46px "Times New Roman", Times, serif;
-	margin:0;
-	padding:10px 0 0 0;
+	margin: 4;
+	padding: 26px 0 0 0;
 }
 header h1 a#logo:hover{
 	text-decoration:none;
@@ -120,7 +120,7 @@ header h1 a#logo:hover{
 
 #wrap	{
 	width: 100%; /* Spans the width of the page */
-	height: 50px; 
+	height: 144px; 
 	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
 	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
 	position: relative; 
