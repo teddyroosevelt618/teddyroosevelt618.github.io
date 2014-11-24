@@ -156,7 +156,7 @@ header h1 a#logo:hover{
 		display: block;
 		}
 
-.navbar li:hover, a:hover {background-color: #80081c } 
+.navbar li:hover, a:hover {background-color: #3362F5;}  
 
 .navbar li ul 	{
 		display: none;  /* Hides the drop-down menu */
