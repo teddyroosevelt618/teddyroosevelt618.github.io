@@ -109,7 +109,7 @@ header h1 a#logo {
 header h1 a#logo:hover{
 	text-decoration:none;
 	font:46px "Times New Roman", Times, serif;
-	margin:0;
+	margin: 4;
 	background: transparent;
 	
 }
