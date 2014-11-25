@@ -169,7 +169,7 @@ header h1 a#logo:hover{
                         display: block; /* Displays the drop-down box when the menu item is hovered over */
                         }
                         
- .navbar li ul li {background:url(../images/menu_line.jpg) right top no-repeat;} 
+ .navbar li ul li {background: #3362F5;} 
  
  .navbar li ul li a 	{
 		border-left: //1px solid #990000; 
