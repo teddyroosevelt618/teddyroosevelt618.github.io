@@ -1,4 +1,4 @@
-article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video, wrap{
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video, wrap, center{
 	display:block;
 }
 mark, rp, rt, ruby, summary, time {
@@ -297,6 +297,20 @@ header nav {
 }
 .pad_right {
 	padding-right:230px;
+}
+.centered {
+  /* bring your own prefixes */
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -1000px;
+  position: fixed;
+}
+.pad_right2 {
+	padding-right:230px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 .marg_right1 {
 	margin-right:20px;
